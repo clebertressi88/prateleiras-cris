@@ -6,6 +6,8 @@ Conjunto tecnico em escala 1:1 para corte a laser em MDF nominal de 3 mm. O expo
 
 - `prateleira_40x30_corte.svg`: corte limpo em linhas pretas, sem textos, para LightBurn e similares
 - `prateleira_40x30_corte.dxf`: corte na camada `CORTE` e identificacao na camada `GRAVACAO`
+- `prateleira_40x30_corte_corrigido.svg`: copia identificada da revisao com `L1/L2` de 310 mm e `T1/T2` niveladas
+- `prateleira_40x30_corte_corrigido.dxf`: DXF correspondente a revisao corrigida
 - `plano_corte_numerado.svg`: plano tecnico organizado e numerado; usar como referencia
 - `manual_montagem.svg`: manual vertical importavel no Canva
 - `prateleira_40x30_preview.svg`: vista esquematica do produto montado

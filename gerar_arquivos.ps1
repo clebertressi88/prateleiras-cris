@@ -237,7 +237,11 @@ function Build-Dxf {
 
 $utf8 = [System.Text.UTF8Encoding]::new($false)
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
-[System.IO.File]::WriteAllText((Join-Path $root 'prateleira_40x30_corte.svg'), (Build-Svg $false), $utf8)
+$cutSvg = Build-Svg $false
+$cutDxf = Build-Dxf
+[System.IO.File]::WriteAllText((Join-Path $root 'prateleira_40x30_corte.svg'), $cutSvg, $utf8)
+[System.IO.File]::WriteAllText((Join-Path $root 'prateleira_40x30_corte_corrigido.svg'), $cutSvg, $utf8)
 [System.IO.File]::WriteAllText((Join-Path $root 'plano_corte_numerado.svg'), (Build-Svg $true), $utf8)
-[System.IO.File]::WriteAllText((Join-Path $root 'prateleira_40x30_corte.dxf'), (Build-Dxf), [System.Text.Encoding]::ASCII)
+[System.IO.File]::WriteAllText((Join-Path $root 'prateleira_40x30_corte.dxf'), $cutDxf, [System.Text.Encoding]::ASCII)
+[System.IO.File]::WriteAllText((Join-Path $root 'prateleira_40x30_corte_corrigido.dxf'), $cutDxf, [System.Text.Encoding]::ASCII)
 Write-Host "Arquivos gerados. Rasgo CAD: $(F $LarguraRasgo) mm."

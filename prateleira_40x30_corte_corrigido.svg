@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1300mm" height="1120mm" viewBox="0 0 1300 1120">
+  <title>Expositor 40x30x40 cm - MDF 3 mm - escala 1:1</title>
+  <desc>Rasgo CAD 3 mm = MDF 3 + folga 0.1 - kerf 0.1. Unidades geometricas em mm; cotas do manual em cm.</desc>
+  <g id="CORTE" fill="none" stroke="#000000" stroke-width="0.1" stroke-linejoin="miter" vector-effect="non-scaling-stroke">
+    <polygon id="L1" data-peca="L1" points="20,420 20,275 85,275 85,180 150,180 150,85 225,85 225,20 330,20 330,420"/>
+    <polygon id="L1-fundo" data-peca="L1" points="316,65 319,65 319,90.2 316,90.2"/>
+    <polygon id="L1-fundo" data-peca="L1" points="316,210 319,210 319,235.2 316,235.2"/>
+    <polygon id="L1-fundo" data-peca="L1" points="316,355 319,355 319,380.2 316,380.2"/>
+    <polygon id="L1-base" data-peca="L1" points="65,403 90.2,403 90.2,406 65,406"/>
+    <polygon id="L1-base" data-peca="L1" points="245,403 270.2,403 270.2,406 245,406"/>
+    <polygon id="L1-prateleira" data-peca="L1" points="54.971,348.081 79.936,344.648 79.528,341.676 54.563,345.109"/>
+    <polygon id="L1-prateleira" data-peca="L1" points="139.179,336.502 164.144,333.069 163.735,330.097 138.77,333.53"/>
+    <polygon id="L1-frente" data-peca="L1" points="33,290 36,290 36,310.2 33,310.2"/>
+    <polygon id="L1-frente" data-peca="L1" points="33,325 36,325 36,345.2 33,345.2"/>
+    <polygon id="L1-prateleira" data-peca="L1" points="119.971,253.081 144.936,249.648 144.528,246.676 119.563,250.109"/>
+    <polygon id="L1-prateleira" data-peca="L1" points="204.179,241.502 229.144,238.069 228.735,235.097 203.77,238.53"/>
+    <polygon id="L1-frente" data-peca="L1" points="98,195 101,195 101,215.2 98,215.2"/>
+    <polygon id="L1-frente" data-peca="L1" points="98,230 101,230 101,250.2 98,250.2"/>
+    <polygon id="L1-prateleira" data-peca="L1" points="184.971,158.081 209.936,154.648 209.528,151.676 184.563,155.109"/>
+    <polygon id="L1-prateleira" data-peca="L1" points="269.179,146.502 294.144,143.069 293.735,140.097 268.77,143.53"/>
+    <polygon id="L1-frente" data-peca="L1" points="163,100 166,100 166,120.2 163,120.2"/>
+    <polygon id="L1-frente" data-peca="L1" points="163,135 166,135 166,155.2 163,155.2"/>
+    <polygon id="L1-travessa" data-peca="L1" points="185.5,335.2 188.5,335.2 188.5,355.4 185.5,355.4"/>
+    <polygon id="L1-travessa" data-peca="L1" points="250.5,240.2 253.5,240.2 253.5,260.4 250.5,260.4"/>
+    <polygon id="L2" data-peca="L2" points="340,420 340,275 405,275 405,180 470,180 470,85 545,85 545,20 650,20 650,420"/>
+    <polygon id="L2-fundo" data-peca="L2" points="636,65 639,65 639,90.2 636,90.2"/>
+    <polygon id="L2-fundo" data-peca="L2" points="636,210 639,210 639,235.2 636,235.2"/>
+    <polygon id="L2-fundo" data-peca="L2" points="636,355 639,355 639,380.2 636,380.2"/>
+    <polygon id="L2-base" data-peca="L2" points="385,403 410.2,403 410.2,406 385,406"/>
+    <polygon id="L2-base" data-peca="L2" points="565,403 590.2,403 590.2,406 565,406"/>
+    <polygon id="L2-prateleira" data-peca="L2" points="374.971,348.081 399.936,344.648 399.528,341.676 374.563,345.109"/>
+    <polygon id="L2-prateleira" data-peca="L2" points="459.179,336.502 484.144,333.069 483.735,330.097 458.77,333.53"/>
+    <polygon id="L2-frente" data-peca="L2" points="353,290 356,290 356,310.2 353,310.2"/>
+    <polygon id="L2-frente" data-peca="L2" points="353,325 356,325 356,345.2 353,345.2"/>
+    <polygon id="L2-prateleira" data-peca="L2" points="439.971,253.081 464.936,249.648 464.528,246.676 439.563,250.109"/>
+    <polygon id="L2-prateleira" data-peca="L2" points="524.179,241.502 549.144,238.069 548.735,235.097 523.77,238.53"/>
+    <polygon id="L2-frente" data-peca="L2" points="418,195 421,195 421,215.2 418,215.2"/>
+    <polygon id="L2-frente" data-peca="L2" points="418,230 421,230 421,250.2 418,250.2"/>
+    <polygon id="L2-prateleira" data-peca="L2" points="504.971,158.081 529.936,154.648 529.528,151.676 504.563,155.109"/>
+    <polygon id="L2-prateleira" data-peca="L2" points="589.179,146.502 614.144,143.069 613.735,140.097 588.77,143.53"/>
+    <polygon id="L2-frente" data-peca="L2" points="483,100 486,100 486,120.2 483,120.2"/>
+    <polygon id="L2-frente" data-peca="L2" points="483,135 486,135 486,155.2 483,155.2"/>
+    <polygon id="L2-travessa" data-peca="L2" points="505.5,335.2 508.5,335.2 508.5,355.4 505.5,355.4"/>
+    <polygon id="L2-travessa" data-peca="L2" points="570.5,240.2 573.5,240.2 573.5,260.4 570.5,260.4"/>
+    <polygon id="F1-FUNDO" data-peca="F1-FUNDO" points="672,20 1066,20 1066,65 1072,65 1072,90 1066,90 1066,210 1072,210 1072,235 1066,235 1066,355 1072,355 1072,380 1066,380 1066,420 672,420 672,380 666,380 666,355 672,355 672,235 666,235 666,210 672,210 672,90 666,90 666,65 672,65"/>
+    <polygon id="F1-base" data-peca="F1-FUNDO" points="727,403 747,403 747,406 727,406"/>
+    <polygon id="F1-prateleira-3" data-peca="F1-FUNDO" points="727,136.5 747,136.5 747,139.528 727,139.528"/>
+    <polygon id="F1-base" data-peca="F1-FUNDO" points="856.4,403 876.4,403 876.4,406 856.4,406"/>
+    <polygon id="F1-prateleira-3" data-peca="F1-FUNDO" points="856.4,136.5 876.4,136.5 876.4,139.528 856.4,139.528"/>
+    <polygon id="F1-base" data-peca="F1-FUNDO" points="986,403 1006,403 1006,406 986,406"/>
+    <polygon id="F1-prateleira-3" data-peca="F1-FUNDO" points="986,136.5 1006,136.5 1006,139.528 986,139.528"/>
+    <polygon id="B1-BASE" data-peca="B1-BASE" points="20,455 414,455 414,500 426,500 426,525 414,525 414,680 426,680 426,705 414,705 414,752 354,752 354,760 334,760 334,752 224.4,752 224.4,760 204.4,760 204.4,752 95,752 95,760 75,760 75,752 20,752 20,705 8,705 8,680 20,680 20,525 8,525 8,500 20,500"/>
+    <polygon id="B1-BASE-trava-E" data-peca="B1-BASE" points="12,507.5 15,507.5 15,517.5 12,517.5"/>
+    <polygon id="B1-BASE-trava-D" data-peca="B1-BASE" points="419,507.5 422,507.5 422,517.5 419,517.5"/>
+    <polygon id="P1" data-peca="P1" points="450,455 844,455 844,480 856,480 856,505 844,505 844,565 856,565 856,590 844,590 844,615 450,615 450,590 438,590 438,565 450,565 450,505 438,505 438,480 450,480"/>
+    <polygon id="P1-trava-E" data-peca="P1" points="442,487.5 445,487.5 445,497.5 442,497.5"/>
+    <polygon id="P1-trava-D" data-peca="P1" points="849,487.5 852,487.5 852,497.5 849,497.5"/>
+    <polygon id="P1-frente" data-peca="P1" points="505,462 525,462 525,465 505,465"/>
+    <polygon id="P1-travessa" data-peca="P1" points="505,605 525,605 525,608 505,608"/>
+    <polygon id="P1-frente" data-peca="P1" points="634.4,462 654.4,462 654.4,465 634.4,465"/>
+    <polygon id="P1-travessa" data-peca="P1" points="634.4,605 654.4,605 654.4,608 634.4,608"/>
+    <polygon id="P1-frente" data-peca="P1" points="764,462 784,462 784,465 764,465"/>
+    <polygon id="P1-travessa" data-peca="P1" points="764,605 784,605 784,608 764,608"/>
+    <polygon id="P2" data-peca="P2" points="880,455 1274,455 1274,480 1286,480 1286,505 1274,505 1274,565 1286,565 1286,590 1274,590 1274,615 880,615 880,590 868,590 868,565 880,565 880,505 868,505 868,480 880,480"/>
+    <polygon id="P2-trava-E" data-peca="P2" points="872,487.5 875,487.5 875,497.5 872,497.5"/>
+    <polygon id="P2-trava-D" data-peca="P2" points="1279,487.5 1282,487.5 1282,497.5 1279,497.5"/>
+    <polygon id="P2-frente" data-peca="P2" points="935,462 955,462 955,465 935,465"/>
+    <polygon id="P2-travessa" data-peca="P2" points="935,605 955,605 955,608 935,608"/>
+    <polygon id="P2-frente" data-peca="P2" points="1064.4,462 1084.4,462 1084.4,465 1064.4,465"/>
+    <polygon id="P2-travessa" data-peca="P2" points="1064.4,605 1084.4,605 1084.4,608 1064.4,608"/>
+    <polygon id="P2-frente" data-peca="P2" points="1194,462 1214,462 1214,465 1194,465"/>
+    <polygon id="P2-travessa" data-peca="P2" points="1194,605 1214,605 1214,608 1194,608"/>
+    <polygon id="P3" data-peca="P3" points="450,650 844,650 844,675 856,675 856,700 844,700 844,760 856,760 856,785 844,785 844,810 784,810 784,818 764,818 764,810 654.4,810 654.4,818 634.4,818 634.4,810 525,810 525,818 505,818 505,810 450,810 450,785 438,785 438,760 450,760 450,700 438,700 438,675 450,675"/>
+    <polygon id="P3-trava-E" data-peca="P3" points="442,682.5 445,682.5 445,692.5 442,692.5"/>
+    <polygon id="P3-trava-D" data-peca="P3" points="849,682.5 852,682.5 852,692.5 849,692.5"/>
+    <polygon id="P3-frente" data-peca="P3" points="505,657 525,657 525,660 505,660"/>
+    <polygon id="P3-frente" data-peca="P3" points="634.4,657 654.4,657 654.4,660 634.4,660"/>
+    <polygon id="P3-frente" data-peca="P3" points="764,657 784,657 784,660 764,660"/>
+    <polygon id="FR1" data-peca="FR1" points="20,850 414,850 414,860 420,860 420,880 414,880 414,895 420,895 420,915 414,915 414,920 354,920 354,928 334,928 334,920 224.4,920 224.4,928 204.4,928 204.4,920 95,920 95,928 75,928 75,920 20,920 20,915 14,915 14,895 20,895 20,880 14,880 14,860 20,860"/>
+    <polygon id="FR2" data-peca="FR2" points="450,850 844,850 844,860 850,860 850,880 844,880 844,895 850,895 850,915 844,915 844,920 784,920 784,928 764,928 764,920 654.4,920 654.4,928 634.4,928 634.4,920 525,920 525,928 505,928 505,920 450,920 450,915 444,915 444,895 450,895 450,880 444,880 444,860 450,860"/>
+    <polygon id="FR3" data-peca="FR3" points="880,850 1274,850 1274,860 1280,860 1280,880 1274,880 1274,895 1280,895 1280,915 1274,915 1274,920 1214,920 1214,928 1194,928 1194,920 1084.4,920 1084.4,928 1064.4,928 1064.4,920 955,920 955,928 935,928 935,920 880,920 880,915 874,915 874,895 880,895 880,880 874,880 874,860 880,860"/>
+    <polygon id="T1" data-peca="T1" points="20,975 75,975 75,972 95,972 95,975 204.4,975 204.4,972 224.4,972 224.4,975 334,975 334,972 354,972 354,975 414,975 414,982 417,982 417,1002 414,1002 414,1010 20,1010 20,1002 17,1002 17,982 20,982"/>
+    <polygon id="T2" data-peca="T2" points="450,975 505,975 505,972 525,972 525,975 634.4,975 634.4,972 654.4,972 654.4,975 764,975 764,972 784,972 784,975 844,975 844,982 847,982 847,1002 844,1002 844,1010 450,1010 450,1002 447,1002 447,982 450,982"/>
+    <polygon id="TR1" data-peca="TRAVAS" points="900,975 928,979 928,989 900,985"/>
+    <polygon id="TR2" data-peca="TRAVAS" points="965,975 993,979 993,989 965,985"/>
+    <polygon id="TR3" data-peca="TRAVAS" points="1030,975 1058,979 1058,989 1030,985"/>
+    <polygon id="TR4" data-peca="TRAVAS" points="1095,975 1123,979 1123,989 1095,985"/>
+    <polygon id="TR5" data-peca="TRAVAS" points="900,1025 928,1029 928,1039 900,1035"/>
+    <polygon id="TR6" data-peca="TRAVAS" points="965,1025 993,1029 993,1039 965,1035"/>
+    <polygon id="TR7" data-peca="TRAVAS" points="1030,1025 1058,1029 1058,1039 1030,1035"/>
+    <polygon id="TR8" data-peca="TRAVAS" points="1095,1025 1123,1029 1123,1039 1095,1035"/>
+    <polygon id="CUPOM" data-peca="CUPOM" points="20,1050 200,1050 200,1095 20,1095"/>
+    <polygon id="CUPOM-RASGO" data-peca="CUPOM" points="60,1050 62.9,1050 62.9,1068 60,1068"/>
+    <polygon id="CUPOM-RASGO" data-peca="CUPOM" points="95,1050 98,1050 98,1068 95,1068"/>
+    <polygon id="CUPOM-RASGO" data-peca="CUPOM" points="130,1050 133.1,1050 133.1,1068 130,1068"/>
+    <polygon id="CUPOM-RASGO" data-peca="CUPOM" points="165,1050 168.2,1050 168.2,1068 165,1068"/>
+  </g>
+</svg>
