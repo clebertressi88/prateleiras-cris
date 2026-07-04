@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <title>Manual de montagem - expositor 40 x 30 x 40 cm</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#111111"/></marker>
+    <style>
+      .line{fill:none;stroke:#111;stroke-width:3;stroke-linejoin:round}.thin{fill:none;stroke:#111;stroke-width:2}.dash{fill:none;stroke:#555;stroke-width:2;stroke-dasharray:8 7}.title{font:700 38px Arial,sans-serif;fill:#111}.h2{font:700 24px Arial,sans-serif;fill:#111}.body{font:18px Arial,sans-serif;fill:#111}.small{font:15px Arial,sans-serif;fill:#111}.num{font:700 28px Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1200" height="1600" fill="#ffffff"/>
+  <text x="70" y="70" class="title">Manual de montagem</text>
+  <text x="70" y="108" class="body">Expositor desmontavel | MDF 3 mm | medidas finais: 40 x 30 x 40 cm</text>
+  <path d="M70 130 H1130" class="thin"/>
+
+  <text x="70" y="180" class="h2">Conferencia das pecas</text>
+  <g class="small">
+    <text x="80" y="220">L1-L2  2 laterais</text><text x="360" y="220">F1  fundo</text><text x="600" y="220">B1  base</text><text x="820" y="220">TR1-TR8  travas</text>
+    <text x="80" y="250">P1-P3  3 prateleiras</text><text x="360" y="250">FR1-FR3  3 frentes</text><text x="690" y="250">T1-T2  2 travessas</text>
+  </g>
+
+  <!-- Etapa 1 -->
+  <circle cx="95" cy="325" r="28" fill="#111"/><text x="86" y="335" class="num">1</text>
+  <text x="140" y="320" class="h2">Teste o encaixe</text>
+  <text x="140" y="350" class="body">Corte primeiro o cupom e escolha o rasgo firme que entre sem forcar o MDF.</text>
+  <g transform="translate(150 385)" class="line">
+    <rect x="0" y="0" width="330" height="90"/>
+    <path d="M65 0 V35 H71 V0 M130 0 V35 H136.2 V0 M195 0 V35 H201.3 V0 M260 0 V35 H266.4 V0"/>
+  </g>
+  <g class="small"><text x="205" y="500">2,90</text><text x="270" y="500">3,00</text><text x="335" y="500">3,10</text><text x="400" y="500">3,20 mm</text></g>
+  <text x="555" y="418" class="body">Formula do gerador:</text>
+  <text x="555" y="450" class="body">rasgo CAD = MDF + folga - kerf</text>
+  <text x="555" y="482" class="small">Nao aplique a compensacao duas vezes.</text>
+
+  <!-- Etapa 2 -->
+  <circle cx="95" cy="570" r="28" fill="#111"/><text x="86" y="580" class="num">2</text>
+  <text x="140" y="565" class="h2">Monte os subconjuntos</text>
+  <text x="140" y="595" class="body">Encaixe as frentes FR nas prateleiras P. Em P1 e P2, encaixe tambem T1 e T2.</text>
+  <g transform="translate(130 640)" class="line">
+    <path d="M0 95 L410 40 L445 45 L35 100 Z"/>
+    <rect x="0" y="20" width="410" height="75"/>
+    <path d="M55 95 V112 H80 V95 M190 95 V112 H215 V95 M325 95 V112 H350 V95"/>
+    <path d="M410 40 V75 H445 V45"/>
+  </g>
+  <path d="M335 620 V675" class="thin" marker-end="url(#arrow)"/>
+  <text x="700" y="670" class="body">FR1 + P1 + T1</text>
+  <text x="700" y="705" class="body">FR2 + P2 + T2</text>
+  <text x="700" y="740" class="body">FR3 + P3</text>
+
+  <!-- Etapa 3 -->
+  <circle cx="95" cy="850" r="28" fill="#111"/><text x="86" y="860" class="num">3</text>
+  <text x="140" y="845" class="h2">Encaixe na primeira lateral</text>
+  <text x="140" y="875" class="body">Coloque F1 e B1 em L1. Depois introduza P1, P2 e P3 nos rasgos inclinados.</text>
+  <g transform="translate(120 920) scale(.78)" class="line">
+    <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H300 V400 Z" fill="#f3f3f3"/>
+    <path d="M10 330 L168.5 308.2 M75 235 L233.5 213.2 M140 140 L298.5 118.2"/>
+    <path d="M0 385 H297"/>
+  </g>
+  <g class="dash">
+    <path d="M470 1010 L700 980" marker-end="url(#arrow)"/>
+    <path d="M470 1085 L700 1055" marker-end="url(#arrow)"/>
+    <path d="M470 1160 L700 1130" marker-end="url(#arrow)"/>
+  </g>
+  <text x="735" y="982" class="body">P3</text><text x="735" y="1057" class="body">P2</text><text x="735" y="1132" class="body">P1</text>
+
+  <!-- Etapa 4 -->
+  <circle cx="95" cy="1260" r="28" fill="#111"/><text x="86" y="1270" class="num">4</text>
+  <text x="140" y="1255" class="h2">Feche e trave</text>
+  <text x="140" y="1285" class="body">Encaixe L2, confira o esquadro e introduza TR1-TR8 nas abas passantes.</text>
+  <g transform="translate(170 1325)" class="line">
+    <rect x="0" y="0" width="18" height="120" fill="#f3f3f3"/>
+    <path d="M18 48 H70 V72 H18"/>
+    <path d="M42 28 L50 28 L62 58 L42 58 Z" fill="#fff"/>
+  </g>
+  <path d="M215 1310 V1365" class="thin" marker-end="url(#arrow)"/>
+  <text x="300" y="1370" class="body">A cunha entra pelo rasgo da aba que ficou para fora da lateral.</text>
+  <text x="300" y="1405" class="body">Monte a seco antes de aplicar cola. Nao force: ajuste o rasgo no gerador.</text>
+
+  <path d="M70 1490 H1130" class="thin"/>
+  <text x="70" y="1530" class="h2">Cotas principais</text>
+  <text x="70" y="1565" class="body">L 40 cm  |  A 40 cm  |  P 30 cm  |  prateleiras 39,4 x 16 cm  |  inclinacao 7,83 graus</text>
+</svg>

@@ -96,4 +96,20 @@
     <polygon id="CUPOM-RASGO" data-peca="CUPOM" points="130,1050 133.1,1050 133.1,1068 130,1068"/>
     <polygon id="CUPOM-RASGO" data-peca="CUPOM" points="165,1050 168.2,1050 168.2,1068 165,1068"/>
   </g>
+  <g id="NUMERACAO-NAO-CORTAR" fill="#000000" stroke="none" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">
+    <text x="170" y="225">L1 - LATERAL ESQ.</text>
+    <text x="490" y="225">L2 - LATERAL DIR.</text>
+    <text x="869" y="225">F1 - FUNDO 39,4 x 40 cm</text>
+    <text x="217" y="600">B1 - BASE 39,4 x 29,7 cm</text>
+    <text x="647" y="537">P1 - PRATELEIRA INCLINADA</text>
+    <text x="1077" y="537">P2 - PRATELEIRA INCLINADA</text>
+    <text x="647" y="732">P3 - PRATELEIRA INCLINADA</text>
+    <text x="217" y="887">FR1 - FRENTE</text>
+    <text x="647" y="887">FR2 - FRENTE</text>
+    <text x="1077" y="887">FR3 - FRENTE</text>
+    <text x="217" y="996">T1 - TRAVESSA</text>
+    <text x="647" y="996">T2 - TRAVESSA</text>
+    <text x="997" y="1065">TR1-TR8 - TRAVAS</text>
+    <text x="110" y="1110">CUPOM 2,90 / 3,00 / 3,10 / 3,20 mm</text>
+  </g>
 </svg>
