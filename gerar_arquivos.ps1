@@ -45,6 +45,12 @@ function Add-TabbedPanel {
         [object[]]$SideTabs, [object[]]$TopTabs, [object[]]$BottomTabs,
         [double]$SideProjection = 6.0, [double]$EdgeProjection = 6.0
     )
+    # O PowerShell achata um unico par aninhado ao vincular parametros posicionais.
+    if ($SideTabs.Count -eq 2 -and $SideTabs[0] -is [double]) {
+        $singleSideTab = @([double]$SideTabs[0], [double]$SideTabs[1])
+        $SideTabs = @()
+        $SideTabs += ,$singleSideTab
+    }
     $p = [System.Collections.Generic.List[object]]::new()
     $p.Add((Pt $X $Y))
     foreach ($t in ($TopTabs | Sort-Object { $_[0] })) {
@@ -85,8 +91,8 @@ function Add-ShelfSlots {
     }
 }
 
-# 1-2. Laterais externas 300 x 400 mm, com perfil em degraus.
-$sideOutline = @((Pt 0 400), (Pt 0 255), (Pt 65 255), (Pt 65 160), (Pt 130 160), (Pt 130 65), (Pt 205 65), (Pt 205 0), (Pt 300 0), (Pt 300 400))
+# 1-2. Laterais externas 310 x 400 mm. Os 10 mm extras reforcam a area atras do rasgo do fundo.
+$sideOutline = @((Pt 0 400), (Pt 0 255), (Pt 65 255), (Pt 65 160), (Pt 130 160), (Pt 130 65), (Pt 205 65), (Pt 205 0), (Pt 310 0), (Pt 310 400))
 foreach ($side in @(@('L1',20.0), @('L2',340.0))) {
     $name = $side[0]; $ox = [double]$side[1]; $oy = 20.0
     $translated = foreach ($q in $sideOutline) { Pt ($ox + $q[0]) ($oy + $q[1]) }
@@ -152,9 +158,19 @@ foreach ($r in @(@('FR1',20.0,850.0), @('FR2',450.0,850.0), @('FR3',880.0,850.0)
 }
 
 # 11-12. Travessas traseiras com abas superiores para P1 e P2.
-$barSideTabs = @(@(7.0,27.0))
 foreach ($r in @(@('T1',20.0,975.0), @('T2',450.0,975.0))) {
-    Add-TabbedPanel $r[0] ([double]$r[1]) ([double]$r[2]) 394 35 $barSideTabs $edgeTabs @() 6 8
+    $name = $r[0]; $x = [double]$r[1]; $y = [double]$r[2]; $p = $EspessuraMdf
+    # Contorno dedicado: tres abas superiores e uma lateral por lado, todas niveladas ao MDF.
+    Add-Poly $name $name @(
+        (Pt $x $y),
+        (Pt ($x+55) $y), (Pt ($x+55) ($y-$p)), (Pt ($x+75) ($y-$p)), (Pt ($x+75) $y),
+        (Pt ($x+184.4) $y), (Pt ($x+184.4) ($y-$p)), (Pt ($x+204.4) ($y-$p)), (Pt ($x+204.4) $y),
+        (Pt ($x+314) $y), (Pt ($x+314) ($y-$p)), (Pt ($x+334) ($y-$p)), (Pt ($x+334) $y),
+        (Pt ($x+394) $y), (Pt ($x+394) ($y+7)), (Pt ($x+394+$p) ($y+7)),
+        (Pt ($x+394+$p) ($y+27)), (Pt ($x+394) ($y+27)), (Pt ($x+394) ($y+35)),
+        (Pt $x ($y+35)), (Pt $x ($y+27)), (Pt ($x-$p) ($y+27)),
+        (Pt ($x-$p) ($y+7)), (Pt $x ($y+7))
+    )
     $labels.Add([pscustomobject]@{Text="$($r[0]) - TRAVESSA"; X=([double]$r[1]+197); Y=([double]$r[2]+21)})
 }
 

@@ -15,7 +15,8 @@ Conjunto tecnico em escala 1:1 para corte a laser em MDF nominal de 3 mm. O expo
 
 - largura externa: 40 cm
 - altura: 40 cm
-- profundidade: 30 cm
+- profundidade da base: 30 cm
+- profundidade total das laterais: 31 cm (reforco traseiro de 10 mm)
 - largura interna das prateleiras: 39,4 cm
 - profundidade de cada prateleira: 16 cm
 - inclinacao: 7,83 graus, com elevacao traseira de aproximadamente 2,2 cm
@@ -23,7 +24,7 @@ Conjunto tecnico em escala 1:1 para corte a laser em MDF nominal de 3 mm. O expo
 
 ## Lista de pecas
 
-- `L1-L2`: duas laterais de 30 x 40 cm
+- `L1-L2`: duas laterais de 31 x 40 cm; o centimetro traseiro reforca o rasgo de `F1`
 - `F1`: fundo de 39,4 x 40 cm
 - `B1`: base de 39,4 x 29,7 cm
 - `P1-P3`: tres prateleiras inclinadas de 39,4 x 16 cm
@@ -57,3 +58,5 @@ Se a compensacao de kerf ja estiver ativada no LightBurn, use `-KerfLaser 0` no 
 5. Feche com a lateral `L2` e introduza as oito travas nas abas passantes.
 
 Uma pequena quantidade de cola para madeira pode ser aplicada apos um teste de montagem a seco, mas as prateleiras e a base possuem travas mecanicas.
+
+As abas de `T1` e `T2` possuem comprimento igual a espessura configurada do MDF, ficando niveladas com as pecas encaixadas.

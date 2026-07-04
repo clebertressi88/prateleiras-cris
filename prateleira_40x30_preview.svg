@@ -3,7 +3,7 @@
   <title>Vista do expositor montado</title>
   <rect width="1000" height="760" fill="#ffffff"/>
   <g fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round">
-    <path d="M105 610 V465 H190 V355 H275 V245 H360 V125 H475 V610 Z" fill="#eeeeee"/>
+    <path d="M105 610 V465 H190 V355 H275 V245 H360 V125 H487 V610 Z" fill="#eeeeee"/>
     <path d="M475 125 H860 V610 H475" fill="#f7f7f7"/>
     <path d="M118 574 L475 525 H860"/>
     <path d="M198 459 L475 421 H860"/>
@@ -15,7 +15,7 @@
   </g>
   <g font-family="Arial, sans-serif" fill="#111111">
     <text x="70" y="65" font-size="32" font-weight="bold">Expositor de encaixe - 3 prateleiras inclinadas</text>
-    <text x="70" y="100" font-size="18">MDF 3 mm | 40 cm largura x 40 cm altura x 30 cm profundidade</text>
+    <text x="70" y="100" font-size="18">MDF 3 mm | base 30 cm | laterais 31 cm com reforco traseiro</text>
     <text x="90" y="690" font-size="17">Vista esquematica: travas externas, frentes de 7 cm e inclinacao de 7,83 graus.</text>
   </g>
 </svg>

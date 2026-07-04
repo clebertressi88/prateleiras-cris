@@ -24,7 +24,7 @@
 
   <rect width="1400" height="2400" fill="#ffffff"/>
   <text x="70" y="70" class="titulo">Manual de montagem - 3 prateleiras inclinadas</text>
-  <text x="70" y="108" class="texto">MDF 3 mm | largura 40 cm | altura 40 cm | profundidade 30 cm</text>
+  <text x="70" y="108" class="texto">MDF 3 mm | largura 40 cm | altura 40 cm | base 30 cm | laterais 31 cm</text>
   <path d="M70 135 H1330" class="fina"/>
 
   <!-- Identificacao das pecas -->
@@ -35,12 +35,12 @@
   <g transform="translate(75 280)">
     <!-- Laterais -->
     <g transform="translate(0 0) scale(.43)">
-      <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H300 V400 Z" class="peca"/>
+      <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H310 V400 Z" class="peca"/>
       <path d="M25 383 H50 M205 383 H230 M296 45 V70 M296 190 V215 M296 335 V360" class="fina"/>
     </g>
     <text x="65" y="195" class="rotulo">L1</text>
     <g transform="translate(155 0) scale(.43)">
-      <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H300 V400 Z" class="peca"/>
+      <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H310 V400 Z" class="peca"/>
       <path d="M25 383 H50 M205 383 H230 M296 45 V70 M296 190 V215 M296 335 V360" class="fina"/>
     </g>
     <text x="220" y="195" class="rotulo">L2</text>
@@ -124,7 +124,7 @@
   <!-- Subconjuntos -->
   <circle cx="96" cy="1190" r="30" fill="#111"/><text x="96" y="1200" class="numero">3</text>
   <text x="145" y="1185" class="subtitulo">Monte os tres subconjuntos</text>
-  <text x="145" y="1218" class="texto">As abas inferiores das frentes entram nos rasgos dianteiros. T1 e T2 ficam penduradas sob a borda traseira.</text>
+  <text x="145" y="1218" class="texto">As frentes entram nos rasgos dianteiros. As abas curtas de T1/T2 ficam niveladas apos o encaixe traseiro.</text>
 
   <g transform="translate(105 1285)">
     <path d="M40 120 L470 61 L510 67 L80 126 Z" class="peca"/>
@@ -156,7 +156,7 @@
   <text x="145" y="1773" class="texto">Deite L1 na mesa. Encaixe F1 e B1; depois P1, P2 e P3, sempre da frente para o fundo.</text>
 
   <g transform="translate(120 1825) scale(.72)">
-    <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H300 V400 Z" class="peca"/>
+    <path d="M0 400 V255 H65 V160 H130 V65 H205 V0 H310 V400 Z" class="peca"/>
     <path d="M0 385 H297" class="destaque"/>
     <path d="M10 330 L168.5 308.2" class="linha"/>
     <path d="M75 235 L233.5 213.2" class="linha"/>
