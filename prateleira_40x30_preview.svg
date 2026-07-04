@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600mm" height="1200mm" viewBox="0 0 1600 1200">
+  <title>Prateleira 40x30 - Preview</title>
+  <style>
+    .cut { fill: none; stroke: #111; stroke-width: 1.2; }
+    .guide { fill: none; stroke: #2f6fed; stroke-width: 1; stroke-dasharray: 6 6; }
+    .txt { font-family: Arial, sans-serif; font-size: 20px; fill: #111; }
+    .small { font-size: 16px; fill: #444; }
+  </style>
+
+  <g transform="translate(40 40)">
+    <text class="txt" x="0" y="-10">Preview das pecas - MDF 3 mm</text>
+
+    <g transform="translate(0 40)">
+      <path class="cut" d="M20 420 L20 100 L320 20 L320 420 Z" />
+      <path class="cut" d="M360 420 L360 100 L660 20 L660 420 Z" />
+      <text class="txt" x="90" y="455">Lateral esquerda</text>
+      <text class="txt" x="430" y="455">Lateral direita</text>
+      <text class="small" x="90" y="485">base 300 | traseira 400 | frente 320</text>
+      <line class="guide" x1="20" y1="420" x2="20" y2="100" />
+      <line class="guide" x1="320" y1="420" x2="320" y2="20" />
+      <text class="small" x="335" y="230">400 mm</text>
+      <text class="small" x="35" y="260">320 mm</text>
+      <text class="small" x="135" y="410">300 mm</text>
+      <line class="guide" x1="20" y1="420" x2="320" y2="420" />
+    </g>
+
+    <g transform="translate(740 40)">
+      <rect class="cut" x="0" y="0" width="400" height="400" />
+      <text class="txt" x="100" y="435">Fundo traseiro 400 x 400</text>
+    </g>
+
+    <g transform="translate(0 560)">
+      <rect class="cut" x="0" y="0" width="400" height="300" />
+      <text class="txt" x="105" y="335">Base 400 x 300</text>
+    </g>
+
+    <g transform="translate(460 560)">
+      <rect class="cut" x="0" y="0" width="394" height="240" />
+      <text class="txt" x="70" y="275">Prateleira do meio 394 x 240</text>
+    </g>
+
+    <g transform="translate(920 560)">
+      <rect class="cut" x="0" y="0" width="394" height="130" />
+      <text class="txt" x="85" y="165">Prateleira superior 394 x 130</text>
+    </g>
+
+    <g transform="translate(0 920)">
+      <rect class="cut" x="0" y="0" width="394" height="80" />
+      <text class="txt" x="90" y="115">Frente inferior 394 x 80</text>
+    </g>
+
+    <g transform="translate(460 920)">
+      <rect class="cut" x="0" y="0" width="394" height="55" />
+      <text class="txt" x="78" y="90">Frente do meio 394 x 55</text>
+    </g>
+
+    <g transform="translate(920 920)">
+      <rect class="cut" x="0" y="0" width="394" height="45" />
+      <text class="txt" x="84" y="80">Frente superior 394 x 45</text>
+    </g>
+
+    <g transform="translate(1220 80)">
+      <text class="txt" x="0" y="0">Assumptions</text>
+      <text class="small" x="0" y="40">1. Medidas interpretadas em mm a partir de 40 x 30 cm e 40 x 40 cm.</text>
+      <text class="small" x="0" y="70">2. Estrutura pensada para cola/parafuso fino, sem encaixes macho-femea.</text>
+      <text class="small" x="0" y="100">3. 3 prateleiras = base + 2 niveis internos.</text>
+      <text class="small" x="0" y="130">4. Largura interna util: 394 mm entre laterais de 3 mm.</text>
+      <text class="small" x="0" y="160">5. Ajuste fino de kerf deve seguir sua maquina.</text>
+      <text class="small" x="0" y="220">Montagem sugerida</text>
+      <text class="small" x="0" y="260">- Colar as laterais sobre a base.</text>
+      <text class="small" x="0" y="290">- Colar o fundo por tras, fechando a estrutura.</text>
+      <text class="small" x="0" y="320">- Posicionar a prateleira do meio a cerca de 140 mm da base.</text>
+      <text class="small" x="0" y="350">- Posicionar a prateleira superior a cerca de 260 mm da base.</text>
+      <text class="small" x="0" y="380">- Colar as frentes na borda de cada nivel.</text>
+    </g>
+  </g>
+</svg>
